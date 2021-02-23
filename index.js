@@ -5,7 +5,11 @@ const typeDefs = require('./schemas/schemas');
 // server creation
 const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    context: () => {
+        const hello = 'hello';
+        return hello;
+    }
 });
 
 // start server
