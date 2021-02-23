@@ -1,0 +1,29 @@
+{
+  "name": "crm-graphql",
+  "version": "1.0.0",
+  "description": "Mini CRM server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montilla-marco/mini-crm-graphql-server.git"
+  },
+  "keywords": [
+    "Marco",
+    "Montilla"
+  ],
+  "author": "Marco Montilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montilla-marco/mini-crm-graphql-server/issues"
+  },
+  "homepage": "https://github.com/montilla-marco/mini-crm-graphql-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
